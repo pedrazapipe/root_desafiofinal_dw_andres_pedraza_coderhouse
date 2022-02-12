@@ -1,0 +1,17 @@
+/* imports */
+
+/* partials */
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/mixin";
+
+/* globals */
+@import "./globals";
+
+/* pages */
+@import "./pages/stream";
+@import "./pages/redes";
+@import "./pages/quienesomos";
+@import "./pages/apoyanos";
+@import "./pages/contacto";
+@import "./pages/404";

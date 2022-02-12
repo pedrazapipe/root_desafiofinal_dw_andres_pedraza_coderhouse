@@ -1,0 +1,263 @@
+/* inicio contacto */
+
+.container-fluid {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1000px;
+    align-content: center;
+
+
+    .row  {
+
+        text-align: center;
+
+        h2 {
+
+            text-align: center;
+
+        }
+
+        li {
+
+            font-size: 1.5em;
+            color: #CCA67B;
+            padding: 3rem;
+        
+        }
+
+        a {
+
+            color: #CCA67B;
+        
+        }
+
+        form {
+
+            color: #CCA67B;
+            font-size: 1.5em;
+            align-items: left;
+            padding: 2rem;
+
+            .nombre {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .nombre::placeholder {
+
+                color: #1d2025;
+
+            }
+
+            .apellido {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .apellido::placeholder {
+
+                color: #1d2025;
+
+            }
+        
+            .correo {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .correo::placeholder {
+
+                color: #1d2025;
+
+            }
+
+            .numero {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .numero::placeholder {
+
+                color: #1d2025;
+
+            }
+
+            .pais {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .pais::placeholder {
+
+                color: #1d2025;
+
+            }
+
+            .ciudad {
+
+                border: groove #1d2025;
+                background-color: white;
+                text-align: center;
+
+            }
+
+            .ciudad::placeholder {
+
+                color: #1d2025;
+
+            }
+
+            .text {
+                
+                border: groove #1d2025;
+                width: 125rem;
+                text-align: center;
+                background-color: white;
+
+            }
+
+            .text::placeholder {
+
+                color: #1d2025;
+
+            }
+
+        }
+        
+    }
+
+}
+
+
+@media only screen and (max-width:1640px) {
+
+.container-fluid {
+
+    .row {
+
+        form{
+
+            .text{
+
+                width: 107rem;
+
+            }
+
+        }
+
+    }
+
+}
+
+}
+
+@media only screen and (max-width:1200px) {
+
+.container-fluid {
+
+    .row {
+    
+        form {
+    
+            .text {
+    
+                width: 77.6rem;
+    
+            }
+    
+        }
+    
+    }
+    
+}
+    
+}
+
+@media only screen and (max-width:1024px) {
+
+.container-fluid {
+
+    .row {
+        
+        form {
+        
+            .text {
+        
+                width: 66rem;
+        
+            }
+        
+        }
+        
+    }
+        
+}
+        
+}
+
+@media only screen and (max-width:768px) {
+
+.container-fluid {
+
+    height: 1200px;
+    padding-top: 12rem;
+
+    .row {
+            
+        form {
+            
+            .text {
+            
+                width: 49rem;
+            
+            }
+            
+        }
+            
+    }
+            
+}
+
+}
+
+@media only screen and (max-width:570px) {
+
+.container-fluid {
+
+    height: 1120px;
+    padding-top: 0%;
+
+    .row {
+                
+        form {
+                
+            .text {
+                
+                width: 28rem;
+                
+            }
+                
+        }
+                
+    }
+                
+}
+
+}

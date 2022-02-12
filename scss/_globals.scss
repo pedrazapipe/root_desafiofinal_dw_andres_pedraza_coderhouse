@@ -1,0 +1,175 @@
+/* inicio globals */
+
+@font-face {
+    
+    font-family: arlington;
+    src: url(../tipografia/kaiseitokumin_regular.ttf);
+
+}
+
+html {
+
+    font-size: 62.5%;
+    font-family: arlington;
+    background-image: linear-gradient(to right bottom, #1d2025, #1a1c21, #17191e, #14151a, #101117, #0e0f15, #0c0d14, #0a0a12, #0a0a12, #0a0a12, #0a0a12, #0a0a12);
+    
+}
+
+* {
+
+    margin: 0;
+    padding: 0rem;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-image: linear-gradient(to right bottom, #1d2025, #1a1c21, #17191e, #14151a, #101117, #0e0f15, #0c0d14, #0a0a12, #0a0a12, #0a0a12, #0a0a12, #0a0a12);
+    
+}
+
+/* globals todos h2 subtitulos */
+
+.subt {
+
+    color: #CCA67B;
+    font-size: 3em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;   
+
+}
+
+.subc{
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #CCA67B;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width:1200px) {
+      
+main {
+    
+    section {
+    
+        .subt {
+        
+            color: #CCA67B;
+            font-size: 2em;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            
+        }
+    
+    }
+    
+}  
+        
+.subt {
+        
+    color: #CCA67B;
+    font-size: 2em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;   
+        
+}
+        
+.subc{
+        
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #CCA67B;
+    font-size: 2em;
+    text-align: center;
+        
+}
+              
+}
+        
+
+@media only screen and (max-width:1024px) {
+                
+main {
+    
+    section {
+    
+        .subt {
+        
+            color: #CCA67B;
+            font-size: 2.2em;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            
+        }
+    
+    }
+    
+}  
+        
+.subt {
+        
+    color: #CCA67B;
+    font-size: 2.2em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;    
+        
+}
+        
+.subc {
+        
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #CCA67B;
+    font-size: 2.2em;
+    text-align: center;
+        
+}
+            
+
+}
+        
+    
+@media only screen and (max-width:768px) {
+                
+main {
+    
+    section {
+    
+        .subt {
+        
+            color: #CCA67B;
+            font-size: 1.8em;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            
+        }
+    
+    }
+    
+}  
+        
+.subt {
+        
+    color: #CCA67B;
+    font-size: 1.8em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;    
+        
+}
+        
+.subc {
+        
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #CCA67B;
+    font-size: 1.8em;
+    text-align: center;
+        
+}
+                                                           
+}

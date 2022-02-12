@@ -1,0 +1,379 @@
+/* inicio quienes somos */
+
+.cuerpo__somos {
+
+    @include grid;
+
+    .biografia {
+
+        padding: 5rem;
+        display: grid;  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px;
+        text-align: center;
+    
+        .subh {
+    
+            color: #A17452;
+            font-size: 3em;
+            
+        }
+    
+        p {
+    
+            color: #F7F0CB;
+            font-size: 1.5em;
+            padding: 2rem;
+        
+        }
+    
+    }
+
+    .destacados {
+
+    padding-top: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+
+        .subd {
+
+            color: #A17452;
+            font-size: 2em;
+            display: flex;
+            flex-direction: column;
+    
+        }
+
+        img {
+
+            width: 80px;
+            height: 80px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            text-align: center;
+
+        }
+
+        img:hover {
+
+            animation: girar 1s;
+
+        }   
+
+    }
+
+}
+
+
+
+
+
+@keyframes girar {
+
+    0% {
+   
+       transform: rotateY(0deg);
+   
+   }
+   
+    50% {
+   
+       transform: rotateY(180deg);
+   
+   }
+   
+    100% {
+   
+       transform: rotateY(360deg);
+   
+   }
+   
+   }
+
+@media only screen and (max-width:1640px) {
+
+.cuerpo__somos {
+
+        .biografia {
+    
+            .subh {
+            
+                color: #A17452;
+                font-size: 2em;
+                    
+            }
+        
+            p {
+            
+                color: #F7F0CB;
+                font-size: 1.1em;
+                padding: 1.2rem;
+                
+            }
+
+        }
+        
+        .destacados {
+
+            .subd {
+                
+                color: #A17452;
+                font-size: 2em;
+                display: flex;
+                flex-direction: column;
+                    
+            }
+        
+            a {
+                
+                img {
+        
+                    width: 65px;
+                    height: 65px;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    text-align: center;
+        
+                }
+        
+            }
+            
+        }
+
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+
+.cuerpo__somos {
+
+    .biografia {
+    
+        .subh {
+            
+            color: #A17452;
+            font-size: 2em;
+                    
+        }
+        
+        p {
+            
+            color: #F7F0CB;
+            font-size: 1.1em;
+            padding: 1.2rem;
+                
+        }
+        
+    }
+
+    .destacados {
+
+        .subd {
+        
+            color: #A17452;
+            font-size: 2em;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        a {
+        
+            img {
+
+                width: 65px;
+                height: 65px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                text-align: center;
+
+            }
+
+        }
+    
+    }
+
+}
+
+}
+
+@media only screen and (max-width:1024px) {
+
+.cuerpo__somos {
+
+    display: flex;
+    flex-direction: column;
+
+    .biografia {
+        
+        .subh {
+                
+            color: #A17452;
+            font-size: 2.2em;
+                        
+        }
+            
+        p {
+                
+            color: #F7F0CB;
+            font-size: 1.5em;
+            padding: 1.2rem;
+                    
+        }
+            
+    }
+    
+    .destacados {
+    
+        .subd {
+            
+            color: #A17452;
+            font-size: 2em;
+            display: flex;
+            flex-direction: column;
+                
+        }
+    
+        a {
+            
+            img {
+    
+                width: 60px;
+                height: 60px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                text-align: center;
+    
+            }
+    
+        }
+        
+    }
+    
+}
+    
+} 
+
+@media only screen and (max-width:768px) {
+
+.cuerpo__somos {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+
+    
+    .biografia {
+            
+        .subh {
+                    
+            color: #A17452;
+            font-size: 1.8em;
+                            
+        }
+                
+        p {
+                    
+            color: #F7F0CB;
+            font-size: 1.2em;
+            padding: 1rem;
+                        
+        }
+                
+    }
+        
+    .destacados {
+        
+        .subd {
+                
+            color: #A17452;
+            font-size: 1.8em;
+            display: flex;
+            flex-direction: column;
+                    
+        }
+        
+        a {
+                
+            img {
+        
+                width: 50px;
+                height: 50px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                text-align: center;
+        
+            }
+        
+        }
+            
+    }
+        
+}   
+
+}
+
+@media only screen and (max-width:570px) {
+
+.cuerpo__somos {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    
+        
+    .biografia {
+
+        padding: 0%;
+                
+        .subh {
+                        
+            color: #A17452;
+            font-size: 1.5em;
+            text-align: center;
+
+                                
+        }
+                    
+        p {
+                        
+            color: #F7F0CB;
+            font-size: 1.1em;
+            padding: 1rem;
+                            
+        }
+                    
+    }
+            
+    .destacados {
+ 
+        padding: 0%;
+
+        .subd {
+
+            text-align: center;
+
+                        
+        }
+            
+        a {
+                    
+            img {
+
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            
+            }
+            
+        }
+                
+    }
+            
+}   
+
+}

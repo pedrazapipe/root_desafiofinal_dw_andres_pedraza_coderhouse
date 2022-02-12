@@ -1,0 +1,257 @@
+/* inicio apoyanos */
+
+.cuerpo__ayuda {
+
+    @include grid;
+
+    .ventajas {
+
+        padding: 3rem;
+        color: #F7F0CB;
+    
+        li {
+    
+            font-size: 2rem;
+            padding: 2rem   ;
+        
+        }
+    
+        p {
+    
+            padding: 0;
+            font-size: 2em;
+            
+        }
+    
+    }
+
+    .metodos {
+
+        padding: 2rem;
+        text-align: center;
+    
+        img {
+    
+            height: 120px;
+            width: 120px;
+            margin: 3rem 10rem;
+            border-radius: 5%;
+            transition: 1s;
+        
+        }
+
+        img:hover {
+
+            transform: scale(2);
+
+        }
+    
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+
+.cuerpo__ayuda {
+
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    .ventajas {
+    
+        padding: 3rem;
+        color: #F7F0CB;
+        
+        li {
+        
+            font-size: 1.5rem;
+            padding: 2rem;
+            
+        }
+        
+        p {
+        
+            padding: 0;
+            font-size: 1.5em;
+                
+        }
+        
+    }
+    
+    .metodos {
+    
+        padding: 2rem;
+        text-align: center;
+        
+        img {
+        
+            height: 90px;
+            width: 90px;
+            margin: 3rem 10rem;
+            border-radius: 5%;
+            transition: 1s;
+            
+        }
+        
+    }
+    
+}
+
+}
+
+@media only screen and (max-width:1024px) {
+
+.cuerpo__ayuda {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+        
+    .ventajas {
+        
+        padding: 3rem;
+        color: #F7F0CB;
+            
+        li {
+            
+            font-size: 1.5rem;
+            padding: 2rem;
+                
+        }
+            
+        p {
+            
+            padding: 0;
+            font-size: 1.5em;
+                    
+        }
+            
+    }
+        
+    .metodos {
+        
+        padding: 2rem;
+        text-align: center;
+            
+        img {
+            
+            height: 90px;
+            width: 90px;
+            margin: 3rem 10rem;
+            border-radius: 5%;
+            transition: 1s;
+                
+        }
+            
+    }
+        
+}
+    
+}
+
+@media only screen and (max-width:768px) {
+
+.cuerpo__ayuda {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+            
+    .ventajas {
+            
+        padding: 3rem;
+        color: #F7F0CB;
+     
+            li {
+                
+                font-size: 1.2rem;
+                padding: 2rem;
+                    
+            }
+                
+            p {
+                
+                padding: 0;
+                font-size: 1.2em;
+                        
+            }
+                
+    }
+            
+    .metodos {
+            
+        padding: 2rem;
+        text-align: center;
+                
+        img {
+                
+            height: 70px;
+            width: 70px;
+            margin: 3rem 10rem;
+            border-radius: 5%;
+                    
+        }
+                
+    }
+            
+}
+
+}
+
+@media only screen and (max-width:560px) {
+
+.cuerpo__ayuda {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 0%;
+
+                
+    .ventajas {
+                
+        padding: 3rem;
+        color: #F7F0CB;
+                    
+            li {
+                    
+                font-size: 1.2rem;
+                padding: 2rem;
+                        
+            }
+                    
+            p {
+                    
+                padding: 0;
+                font-size: 1.2em;
+                            
+            }
+                    
+    }
+                
+    .metodos {
+                
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+                    
+            height: 60px;
+            width: 60px;
+            border-radius: 5%;
+
+    
+        }
+                    
+    }
+                
+}
+    
+}
+
